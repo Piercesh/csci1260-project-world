@@ -17,9 +17,19 @@
 # A public Weapon will have name, damageBonus and base(name)
 # The last will be an override void Use(Player player) that will have player.EquipWeapon(Name, DamageBonus)
 ## IItem
-# 
+# IItem has been sat as an interface
+# It will be connected to the abstract Item.
+# The interface will also help out show the potion and item so the player can get them.
+# The interface will have a name {get; } and will also have the void Use (Player player).
 ## Monster
-#
+# The Monster will have some important stuff that will help it spawn and be a threat to the player.
+# For X and Y, it is what will help the monster to spawn in the maze.
+# The Monster is going to have some health and will also do some damage to the player when it gets into battle.
+# There is a bool IsAlive to know if the monster is alive or dead.
+# There is a public monster that will have x,y, damage and health.
+# One thing I wanted it to do was to move around and find the player so there is the MoveTowardsPlayer
+# There is the attack so it will be capable of attacking
+# and there is the takedamage, so the player will be capable of defeating the monster.
 ## Player
 #
 ## Main
