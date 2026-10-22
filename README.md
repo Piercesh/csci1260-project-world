@@ -34,5 +34,23 @@
 # The Player class was the second class I had put in and is the second most important code.
 # There is a public int X and Y to help the player spawn in
 # Then there's the public int Health so there can be health for the player.
-#
+# With Health there is also maxHealth that has been set to 100.
+# WeaponDamage has been set to 0 to show the player is weak for now.
+# MovesRemaining is to make sure there are limited turns for the player
+# EquippedWeapon will be set to you starting off with your fist.
+# There is a list in players that has the interface IItem in it.
+# It is to make sure that the player will be capable of using those items while they go through the maze.
+# There is the public Player that has x, y, movesRemaining, and MaxHealth
+# In Void Move, there is x and y which is to help the player move around.
+# UseMove() is to let you know how many moves there are left, if you have 0, then you can't move
+if you do have more moves then you can continue.
+# ResetMoves is to keep track of the moves you made
+# TakeDamage Is to make sure the player takes damage from the monster.
+# EquipWeapon is for when the player gets a weapon and it will add the damage and show the name.
+# Heal is for when the player gets a potion.
+# AddItem is for when you get an item added to your inventory
+# GetAttackDamage is for when the player picks up the weapon, they will get a bonus.
+# ShowInventory is to show your inventory and what you have gained from the maze.
+# And the last one is the UseItemInventory that will allow you to use the items you have
+# If you don't put a right input then it will tell you thats an invalid choice.
 ## Main
