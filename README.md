@@ -31,5 +31,8 @@
 # There is the attack so it will be capable of attacking
 # and there is the takedamage, so the player will be capable of defeating the monster.
 ## Player
+# The Player class was the second class I had put in and is the second most important code.
+# There is a public int X and Y to help the player spawn in
+# Then there's the public int Health so there can be health for the player.
 #
 ## Main
