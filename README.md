@@ -54,3 +54,18 @@ if you do have more moves then you can continue.
 # And the last one is the UseItemInventory that will allow you to use the items you have
 # If you don't put a right input then it will tell you thats an invalid choice.
 ## Main
+# There is a random that should make the maze be random.
+# Here is the ints for widths, heights, moveLimits to set up the maze.
+# Player player = new Player is going to keep track on how many times the player can move.
+# In the game there will be a total of 3 rounds the player must complete to win the game.
+# If they use too many moves or lose to a monster, the game will end.
+# When you see the 'E' That is where the Exit will be.
+# 'W' & 'H' are where your items will be.
+# 'M' is how the monster will spawn in and move around.
+# 'P' is the player themselves.
+# The game will make sure to keep count on how many rounds it has been,
+# how many items you got and if they been used, and how much health you got left.
+# Instructions shoulf show up on what each button does.
+# There will be a GenerateMaze so the maze can be made.
+# PlaceRandomItems() is going to make sure that the items do spawn in.
+DrawMaze is what will make the maze itself.
